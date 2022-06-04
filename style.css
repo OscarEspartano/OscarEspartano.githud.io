@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+ width: 100%; 
+ height: 100vh;  
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ text-align: center;
+ margin-left:480px;
+justify-content: flex-start;
+flex-direction: column;
+background-image: linear-gradient(150deg, rgb(73, 125, 204), rgb(9, 19, 49), rgb(46, 148, 122), rgb(50, 75, 45)) ;
+background-size: 170%;
+margin-bottom: 100px;
+animation: fanimado 0.4s infinite;
+
+}
+.text-uppercase{
+    text-transform: capitalize;
+}
+
+h1{
+font-family: 'shadows into light', cursive;
+color: darkblues;
+}
+
+img:hover{
+    cursor pointer;
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.texto{
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 15px;
+}
+
+.contenedor{
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+    
+img{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    transition: 0.2s ease;
+}
+
+p{
+    font-family: 'shadows into light', cursive;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.red-social{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.card .icon i{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+    border-style: inset;
+    margin-bottom: 50px;
+    border-color: aqua;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px -5p -20px 5px black;
+    transform: scale(1.1);
+}
+
+.card:hover .icon i {
+font-size: 2.5rem;
+color: darkblue;
+}
+
+.card span{
+    font-family: 'shadows into light' cursive;
+    font-size: 1.2rem;
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 20%;
+    }
+    25%{
+        background-position:  45% 60%;
+    }
+    50%{
+background-position: 100% 80%;
+    }
+    25%{
+        background-position: 50% 25%;
+    }
+    100%{
+        background-position: 0% 25%;
+    }
